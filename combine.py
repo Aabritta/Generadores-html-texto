@@ -37,7 +37,6 @@ COLORS = {
     '24': 'f2eee8'
 }
 
-
 TAGS = {
     'INTR': 'Notas introductorias a personajes y conceptos clave del mundo homérico.',
     'AVAN': 'Notas con información avanzada sobre el texto y aproximaciones básicas de análisis, dirigidas a lectores familiarizados con la cultura griega antigua interesados en su análisis literario.',
