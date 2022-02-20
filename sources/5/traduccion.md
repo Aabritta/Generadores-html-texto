@@ -629,7 +629,7 @@ Así ellos se esforzaban en la fuerte batalla,
 y al noble y grande Tlepólemo Heraclida
 lo impulsaba contra Sarpedón igual a los dioses la moira imponente.
 Ellos, en cuanto estuvieron cerca yendo uno sobre otro, 630
-el hijo y el nieto de Zeus que amontona las nubes,
+el hijo y el nieto de Zeus, que amontona las nubes,
 a él Tlepólemo primero le dirigió estas palabras:
 “Sarpedón, portavoz de los licios, ¿qué necesidad tenés
 de acurrucarte estando aquí como un hombre inexperto en el combate?
@@ -734,7 +734,7 @@ a los caballos de veloces pies, ansiando la disputa y el clamor.
 Mientras, Atenea, hija de Zeus portador de la égida,
 el fino peplo vertió sobre el suelo de su padre,
 magnífico, ese que ella misma hizo y elaboró con sus manos; 735
-y ella, tras vestirse la túnica de Zeus que amontona las nubes,
+y ella, tras vestirse la túnica de Zeus, que amontona las nubes,
 se equipó con las armas para la guerra llena de lágrimas.
 Y en los hombros, claro, se colgó la égida borlada,
 tremenda, que en torno por todos lados corona el Espanto,

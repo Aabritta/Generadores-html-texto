@@ -1,5 +1,4 @@
 # Ilíada 16 - Comentario
-Las aclaraciones entre paréntesis solo se agregan cuando existe ambigüedad respecto a la referencia. Así, “Bas.” en cualquier comentario al canto 16 debe interpretarse como Bas. XVI.
 
 | AH                   | Ameis, K. F. y Hentze. C. (1884-1906) *Homers Ilias,* 2 vols (vol. 1: 3 partes; vol 2: 4 partes).                                                                                                                                                                            |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -97,6 +96,8 @@ v. 35, **ἠλίβατοι**: como en el caso de αἰγίλιπος (VER Com. 
 v. 39, **αἰ κεν**: siguiendo a Leaf, reponemos esta forma contra el extendido ἤν που de los manuscritos, casi por completo ausente del texto homérico. Las construcciones paralelas de los vv. 38-39 y 40-41 refuerzan la lectura. \[[TECN]\] [[TEXT]]
 
 v. 39, **φόως**: es atendible el argumento de CSIC I (*ad* 2.49) de que no hay evidencia contundente a favor de la diéctasis φόως, dado que todos los casos de forma yámbica de la palabra disilábica para “luz” pueden explicarse por alargamiento por doble consonante (en 2.49 y 23.226, por la digamma inicial de ϝερέω), lo que permitiría la forma φάος. Sin embargo, preferimos, con la mayoría de los editores, atenernos a la grafía habitual de los manuscritos y asumir que, como en otros casos, los poetas estarían adaptando aquí una forma que, para su época, sería monosilábica (φῶς), incluso en instancias donde, quizás, originalmente se hallara φάος. En cualquier caso, se trata de una falsa dicotomía. Leer más: Wyatt, W. F. (1994) “[Homeric Loss of /w/ and Vowels in Contact](http://www.jstor.org/stable/40266991)”, *Glotta* 72, 119-150, pp. 139-140. \[[TECN]\] [[TEXT]] [[GRAM]]
+
+v. 49, **ᾤ μοι**: sobre la ortografía, VER Com. 1.149. \[[TECN]\] [[TEXT]] [[TRAD]]
 
 v. 51, **οὔτε τί**: VER Com. 1.108. \[[TECN]\] [[TEXT]] [[GRAM]]
 
@@ -241,6 +242,8 @@ v. 183, **χρυσηλακάτου**: seguimos a Bas. en la interpretación de e
 v. 185, **ἀκάκητα**: el significado y etimología de este epíteto son desconocidos. Seguimos al escoliasta T en la interpretación ἀ-κακός, pero esto puede no ser más que una conjetura (aunque, según Janko, *ad* 185-7, “no doubt Homer took it thus”, una afirmación un tanto exagerada, asumiendo que el autor no ha tenido más acceso que nosotros al cerebro del poeta). \[[TECN]\] [[GRAM]]
 
 v. 186, **πέρι**: entiendo con, entre otros, CSIC (*contra* Van Thiel y West) que la preposición en función adverbial tiene acento pleno, de donde la forma paroxítona. \[[TECN]\] [[TEXT]] [[GRAM]]
+
+v. 188, **Ἠελίου**: VER Com. 1.475. \[[TECN]\] [[CONC]] [[TEXT]]
 
 v. 191, **ὁ γέρων**: sobre el uso del artículo, VER Com. 1.33. \[[TECN]\] [[GRAM]]
 
@@ -434,7 +437,7 @@ v. 454, **θάνατόν τε φέρειν καὶ νήδυμον ὕπνον**:
 
 v. 457, **τύμβῳ τε στήλῃ τε**: la elección de palabras para traducir estos términos no es insignificante, puesto que delimita una concepción del rito funerario. La mayoría de los traductores contemporáneos opta por “estela”, como nosotros, para el segundo, pero Pérez elige “epitafio”, lo que implica la falacia interpretativa de que el término griego sugiere algún tipo de escritura, algo que es del todo falso. La alternancia para τυμβός entre “tumba” y “túmulo” es menos grave, pero entendemos que el primer término implica la idea de que se trata del sitio de entierro de un cadáver, sin ningún tipo de señal superficial más que la estela, cuando en los funerales homéricos y en general en *Ilíada* los τύμβοι son montículos visibles como puntos de referencia geográficos que se construyen sobre los sitios de cremación de los héroes (cf. 2.792-4, 811-815 y las tres referencias a la tumba de Ilo en 10.415, 11.166 y 24.349). \[[TECN]\] [[CONC]] [[TRAD]]
 
-v. 461, **φθείσειν**: Debe tener razón West (XXXVI) en que las formas de aoristo de φθίνω en φθισ- son un error producto de iotacismo, dado que no hay forma de explicar en esos casos la presencia de una iota larga (cf. 6.407, 11.821 y 24.86, donde se conservan en algunas fuentes variantes en φθεισ-). Seguimos al editor en reponer el diptongo gráfico en todos los casos (sobre el caso similar pero con una diferencia clave de τίνω, VER Com. 1.42). \[[TECN]\] [[TEXT]] [[GRAM]]
+v. 461, **φθείσειν**: Debe tener razón West (XXXVI) en que las formas de aoristo de φθίνω en φθισ- son un error producto de iotacismo, dado que no hay forma de explicar en esos casos la presencia de una iota larga (cf. 6.407, 11.821 y 24.86, donde se conservan en algunas fuentes variantes en φθεισ-). Seguimos al editor en reponer el diptongo gráfico en todos los casos (sobre el caso similar pero con una diferencia clave de τίνω, VER Com. 1.42). \[[TECN]\] [[TEXT]] [[GRAM]] UNIFICAR CON 2.833.
 
 v. 463, **Θρασύδημον**: la mayoría de los manuscritos traen el inusitado y cómico Θρασύμηλον (“el carnero valiente”), que no puede sino ser un error, como reconocen todos los editores y comentaristas actuales y está garantizado por la presencia del nombre que editamos en un escolio (al que debe añadirse otro que demuestra que el error es antiguo). \[[TECN]\] [[TEXT]]
 
@@ -468,7 +471,7 @@ v. 496, **ἐποιχόμενος**: por mor del largo del verso, no traducimos 
 
 v. 496, **Σαρπηδόνος ἀμφιμάχεσθαι**: VER Com. 16.73. \[[TECN]\] [[GRAM]]
 
-v. 500, **τεύχεα συλήσωσι νεῶν ἐν ἀγῶνι πεσόντα**: Sobre la evolución de la palabra ἀγών (observable en su totalidad en el texto, cf. Leaf, *ad* 15.428). La segunda parte del verso ha llevado a algunos críticos (e.g. Janko, *ad* 492-501) a pensar que, cuando Patroclo encierra a los troyanos en 394-395, los hace volver junto a las naves, pero esto es muy improbable, dado que un nuevo cruce de la zanja y la muralla no es algo que pudiera quedar tácito y que en 395 se dice que la batalla es *entre* las naves y el río (por lo demás, la frase de 394-395 no sugiere que Patroclo los haya hecho retroceder, sino que los contuvo). Leaf, seguido por Bas., interpreta un valor retórico: es un logro mayor caer “νεῶν ἐν ἀγῶνι” que en medio de la llanura; de nuevo, esto es por lo menos extraño. La explicación más sencilla es una que no parece haber sido en general considerada: νεῶν ἐν ἀγῶνι no está con las dos formas verbales, sino solo con συλήσωσι. La frase, sin embargo, no deja de ser algo confusa. \[[TECN]\] [[GRAM]]
+v. 500, **τεύχεα συλήσωσι νεῶν ἐν ἀγῶνι πεσόντα**: Sobre la evolución de la palabra ἀγών (observable en su totalidad en el texto), cf. Leaf, *ad* 15.428. La segunda parte del verso ha llevado a algunos críticos (e.g. Janko, *ad* 492-501) a pensar que, cuando Patroclo encierra a los troyanos en 394-395, los hace volver junto a las naves, pero esto es muy improbable, dado que un nuevo cruce de la zanja y la muralla no es algo que pudiera quedar tácito y que en 395 se dice que la batalla es *entre* las naves y el río (por lo demás, la frase de 394-395 no sugiere que Patroclo los haya hecho retroceder, sino que los contuvo). Leaf, seguido por Bas., interpreta un valor retórico: es un logro mayor caer “νεῶν ἐν ἀγῶνι” que en medio de la llanura; de nuevo, esto es por lo menos extraño. La explicación más sencilla es una que no parece haber sido en general considerada: νεῶν ἐν ἀγῶνι no está con las dos formas verbales, sino solo con συλήσωσι. La frase, sin embargo, no deja de ser algo confusa. \[[TECN]\] [[GRAM]]
 
 v. 501, **ἀλλ'**: lo tomamos como el típico cierre de exhortación (VER Com. 1.565), como Pérez, (“conque”) y Martínez García (“pues”). *Contra* CSIC (“ea”, es decir, interpretándolo como una interjección) y Crespo Güemes (“por el contrario”, con el valor adversativo de base, que es adecuado, pero sacrifica la función del conector como indicador de cierre en este tipo de discursos). \[[TECN]\] [[TRAD]] [[GRAM]]
 
@@ -627,6 +630,8 @@ v. 762, **οὔ τι**: οὐχί, la variante que trae la mayoría de los manu
 v. 765, **Ὡς δ'**: VER Com. 16.384.
 
 v. 767, **τανύφλοιόν**: no hay acuerdo sobre el significado de este epíteto. O bien hace alusión al hecho de que la corteza del cornejo se desprende en tiras finas, o bien a su carácter terso. Dado que “fino” en español puede aludir tanto al ancho como a la textura, utilizamos esa traducción, que es también la que prefieren Martínez García y Pérez. \[[TECN]\] [[TRAD]] [[GRAM]]
+
+v. 777, **Ἠέλιος**: VER Com. 1.475. Lo mismo vale para la instancia de 479. \[[TECN]\] [[CONC]] [[TEXT]]
 
 v. 778, **πίπτε**: tiene razón West (XXI) en que corresponde el agudo, no el circunflejo que transmiten los manuscritos, porque la iota es producto de la reduplicación de presente. \[[TECN]\] [[TEXT]]
 

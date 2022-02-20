@@ -113,7 +113,7 @@ pues le pereció su hijo en el combate, el más querido de los varones,
 Ascálafo, que el imponente Ares afirma que era suyo.”
 Así habló, y Ares, por su parte, se golpeó los tiernos muslos
 con las palmas de las manos, y lamentándose dijo estas palabras:
-“No se indignen conmigo ahora los que tienen Olímpicas moradas, 115
+“No se indignen conmigo ahora los que tienen olímpicas moradas, 115
 por castigar la matanza de mi hijo yendo a las naves de los aqueos,
 incluso aunque sea mi destino, golpeado por el rayo de Zeus,
 estar tirado al igual que los cadáveres entre la sangre y el polvo.”
@@ -152,7 +152,7 @@ y se sentó en su trono; y ellos dos, dando un salto, volaron, 150
 y llegaron al Ida de muchos manantiales, madre de fieras,
 y hallaron al Cronida de vasta voz sobre el promontorio del Gárgaro
 sentado; y a su alrededor una fragrante nube lo coronaba.
-Ellos dos, yendo junto a Zeus que amontona las nubes,
+Ellos dos, yendo junto a Zeus, que amontona las nubes,
 se pararon; y viéndolos no se irritó con ellos en el ánimo, 155
 porque velozmente hicieron caso a las palabras de su querida esposa.
 Y primero a Iris le dijo estas aladas palabras:

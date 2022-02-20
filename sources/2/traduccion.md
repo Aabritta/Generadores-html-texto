@@ -482,7 +482,7 @@ Como la vaca en la manada más eminente entre todas es 480
 el toro; pues es así: aquel se distingue entre las vacas reunidas,
 de tal modo hizo Zeus al Atrida en aquel día
 sobresaliente entre muchos y eminente entre los héroes.
-Díganme ahora, Musas que tienen olímpicas moradas,
+Díganme ahora, Musas, que tienen olímpicas moradas,
 pues vosotras sois diosas y estáis presentes y sabéis todas las cosas, 485
 y nosotros solo la fama escuchamos y nada sabemos,
 quiénes eran los líderes de los dánaos y los comandantes;

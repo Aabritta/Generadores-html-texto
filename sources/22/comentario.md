@@ -128,7 +128,7 @@ v. 51, **πολλὰ γὰρ ὤπασε παιδὶ**: lit. “pues muchas cosa
 
 v. 56, **ἀλλ'**: VER Com. 1.565. \[[TECN]\] [[TRAD]] [[GRAM]]
 
-v. 57, **μηδὲ**: la diferencia entre esta lección y el μὴ δὲ que imprime, entre otros, CSIC, es por supuesto puramente ortográfica. Sigo a la mayor parte de los editores contemporáneos (incluyendo a de Jong). \[[TECN]\] [[TEXT]]
+v. 57, **μηδὲ**: VER Com. 1.131. \[[TECN]\] [[TEXT]]
 
 v. 57, **ὀρέξῃς**: AH sugiere que este subjuntivo y el ἀμερθῇς del verso que sigue dependen del ὄφρα de 56, una posibilidad perfectamente viable. Sin embargo, es posible también interpretarlos como prohibitivos en cláusula principal, coordinados no con el σαώσῃς, sino con el εἰσέρχεο. Aunque no hay forma de desambiguar esta sintaxis, el sentido no cambia demasiado y la traducción no cambia en absoluto, de modo que no se trata de un problema significativo. \[[TECN]\] [[GRAM]] [[INTP]]
 
@@ -223,6 +223,8 @@ v. 131, **ὥρμαινε**: VER Com. 16.210. \[[TECN]\] [[TEXT]]
 v. 132, **κορυθάϊκι**: asumimos, con Leaf y otros, que es una variante métrica de κορυθαιόλος. \[[TECN]\] [[GRAM]]
 
 v. 133, **κατὰ δεξιὸν ὦμον**: de entre todas las gramáticas, comentarios y diccionarios que hemos consultado, la única justificación para interpretar aquí la preposición con el sentido de “sobre” (i.e. imaginando a Aquiles con la lanza en alto) se halla en Cunliffe, que presenta dos lugares paralelos equivocados: en 24.81, del plomo sobre los cuernos de una vaca (el valor de la preposición allí es una extensión de su valor “cubrir algo de arriba hacia abajo”) y la fórmula κατὰ κλισμούς τε θρόνους τε de *Odisea* (1.145, 3.389, 10.233, etc.), donde, de nuevo, la idea no es “sobre las sillas y los tronos” en el sentido de “arriba de” sino de “a lo largo de” (i.e. no de cada persona sobre su silla, sino del conjunto de unos a lo largo del conjunto de otras), con la idea de distribución también habitual para la preposición (cf. 1.229, 2.47, etc.). Si el poeta hubiera querido presentar a Aquiles revoleando la lanza con el brazo elevado, parece improbable que usara una preposición que señala movimiento descendente o distribución sobre una superficie, en una fórmula que en todos sus otros usos indica “a través del hombro” (VER *ad* 22.133). Por lo tanto, a menos que quiera imaginarse que Aquiles tenía la lanza casi apoyada sobre su hombro y su sacudir era asimilable a un movimiento de cobertura, la interpretación más natural de la expresión es que la lanza no estaba “arriba” del hombro, sino debajo, en la mano del héroe, que la sacudía al correr (quizás con la idea de que el movimiento pendular de los brazos hace que las puntas lleguen a la altura del hombro y luego bajen). \[[TECN]\] [[GRAM]] [[INTP]]
+
+v. 135, **Ἠελίου**: VER Com. 1.475. \[[TECN]\] [[CONC]] [[TEXT]]
 
 v. 138, **Πηλεΐδης**: VER Com. 1.7. \[[TECN]\] [[TEXT]] [[FORM]]
 

@@ -116,6 +116,8 @@ v. 43, **καὶ γὰρ ἐγὼ**: por mor de la longitud del verso, no traduz
 
 v. 44, **αἳ**: aparentemente, un subordinante relativo de una oración que constituye un *nominativus* *pendens*, pero la sintaxis del pasaje es difícil y acaso la peculiaridad de la secuencia deba atribuirse al estilo paratáctico homérico y al estado emocional de Zeus. \[[TECN]\] [[GRAM]]
 
+v. 44, **Ἠελίῳ**: VER Com. 1.475. \[[TECN]\] [[CONC]] [[TEXT]]
+
 v. 45, **ναιετάουσι**: VER Com. 2.626, pero asumo, dado que este verbo se utiliza proporcionalmente más veces con lugares que ναίω, que el valor pasivo está mejor establecido, de donde la traducción. \[[TECN]\] [[TRAD]] [[GRAM]]
 
 v. 46, **περὶ κῆρι**: la expresión puede tomarse, como sugieren ya los escoliastas (seguidos por Monro, 186.2, Leaf, AH y otros), con περί como adverbial enfático y κῆρι como locativo, o como una única frase locativa (así, Kirk). La diferencia es menor, pero prefiero seguir el consenso mayoritario, que se ajusta bien al contexto. Para facilitar la comprensión, traduzco el énfasis de περί con valor superlativo (de donde “la más honrada”). \[[TECN]\] [[TRAD]] [[GRAM]]

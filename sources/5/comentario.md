@@ -162,6 +162,8 @@ v. 118, **ἐς ὁρμὴν ἔγχεος**: traduzco con un giro español que 
 
 v. 118, **ἐλθεῖν**: sobre el problema del sujeto de este infinitivo, cf. Leaf y Kirk. La lógica de la secuencia sugiere enfáticamente que es Diomedes, no Pándaro, como interpreta la mayoría de los traductores (i.e. “que él llegue al alcance de mi lanza”). \[[TECN]\] [[GRAM]]
 
+v. 120, **Ἠελίοιο**: VER Com. 1.475. \[[TECN]\] [[CONC]] [[TEXT]]
+
 v. 124, **θαρσῶν**: West imprime la corrección de Bekker θαρσέων, que sin duda responde mejor a la ortografía habitual homérica (Chant. 1.§25), pero no es necesario adoptar, habida cuenta de lo indubitable de la pronunciación contracta al momento de la composición del poema (la frecuencia de la interpretación monosilábica del grupo εω parece incomprensible de otro modo). Sobre la traducción, VER Com. 1.85. \[[TECN]\] [[TEXT]] \[[TRAD]\] [[GRAM]]
 
 v. 125, **ἐν γάρ τοι στήθεσσι**: ἐν debe tener aquí su habitual valor adverbial, pero la presencia de τοι justo después del γάρ sugiere enfáticamente interpretar la secuencia como una serie de ποῦ’s cada vez más específicos: dentro, en ti, en tu pecho. No preservo este juego (tomo el τοι como dativo de interés), pero sí retengo el ἐν adverbial en la traducción. \[[TECN]\] [[TRAD]] [[GRAM]]
@@ -277,6 +279,8 @@ v. 263, **ἐπαῗξαι μεμνημένος ἵππων**: sobre el largo de
 v. 265, **τῆς γάρ τοι γενεῆς**: la sugerencia de West, *Making* (*ad* 265-72), de que estas líneas pueden haber sido trasladadas aquí desde 223, por supuesto, carece de todo fundamento, y parece ignorar la importancia de esta genealogía de los caballos en el argumento de Diomedes (VER *ad* 5.265). \[[TECN]\] [[TEXT]]
 
 v. 265, **ἧς**: como observan Chant. (2.237) y Leaf, no se trata de un caso de atracción del relativo, sino de un genitivo con valor ablativo o partitivo (“de \[la raza] que etc.”). [[TECN]\] [[GRAM]]
+
+v. 267, **Ἠῶ τ' Ἠέλιόν τε**: VER Com. 1.475. \[[TECN]\] [[CONC]] [[TEXT]]
 
 v. 270, **τῶν οἱ ἓξ ἐγένοντο ἐνὶ μεγάροισι γενέθλη**: una traducción algo perifrástica es inevitable, dada la peculiaridad de la expresión griega. Una versión literal podría ser “de estos le surgió un nacimiento séxtuple en los palacios”, o bien “de estos le surgió un nacimiento de seis etc.” \[[TECN]\] [[TRAD]]
 

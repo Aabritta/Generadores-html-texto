@@ -102,7 +102,7 @@ v. 98, **φρονέω δὲ διακρινθήμεναι**: existen dos interpre
 
 v. 100, **Ἀλεξάνδρου ἕνεκ' ἄτης**: los contundentes argumentos de CSIC (I, pp. 137-138) a favor de esta variante frente a la unánime de los manuscritos en este verso (ἀρχῆς) me llevan a imprimirla. Destaco entre ellos el hecho de que ἄτης es la lectura mayoritaria en las otras dos instancias de la fórmula (6.356 y 24.28, Kirk también observa esto en su defensa de ἄτης), que la variante ἀρχῆς puede explicarse como una intervención de Aristarco basada en un prejuicio sobre la atribución de culpa a Paris, y que la expresión lingüística resultante de esta variante es extrañísima e inusitada en Homero (sintáctica y semánticamente). Cf. el texto citado para el detalle de los editores que imprimen cada una; West y Van Thiel prefieren ἀρχῆς. \[[TECN]\] [[TEXT]] \[[FORM]\] [[GRAM]] [[INTP]]
 
-v. 104, **Γῇ τε καὶ Ἠελίῳ**: sobre las mayúsculas en la traducción, VER *ad* 1.475. \[[TECN]\] [[MITO]] [[TRAD]]
+v. 104, **Γῇ τε καὶ Ἠελίῳ**: sobre las mayúsculas en Ἠελίῳ, VER Com. 1.475; sobre las mayúsculas en la traducción, VER *ad* 1.475. \[[TECN]\] [[MITO]] [[TRAD]]
 
 v. 105, **ἄξετε**: como otros traductores (Martínez García, Pérez), repongo un locativo para facilitar la comprensión de la frase en español, que no tolera la elipsis del griego (*pace* CSIC). \[[TECN]\] [[TRAD]]
 

@@ -9,32 +9,6 @@ from bs4 import BeautifulSoup
 from enum import Enum
 from markdown import markdown
 
-COLORS = {
-    '1': 'ffebeb',
-    '2': 'fff1eb',
-    '3': 'fff9eb',
-    '4': 'fffeeb',
-    '5': 'faffeb',
-    '6': 'f3ffeb',
-    '7': 'edffeb',
-    '8': 'ebfff0',
-    '9': 'ebfff2',
-    '10': 'ebfff9',
-    '11': 'ebfffd',
-    '12': 'ebfbff',
-    '13': 'ebf8ff',
-    '14': 'ebf4ff',
-    '15': 'ebedff',
-    '16': 'f2ebff',
-    '17': 'f3ebff',
-    '18': 'f6ebff',
-    '19': 'faebff',
-    '20': 'feebff',
-    '21': 'ffebfd',
-    '22': 'ffebf6',
-    '23': 'ffebf3',
-    '24': 'ffebf0'
-}
 
 TAGS = {
     'INTR': 'Notas introductorias a personajes y conceptos clave del mundo homérico.',
@@ -50,6 +24,8 @@ TAGS = {
     'ESTR': 'Notas sobre estructura de discursos, episodios y el poema.',
     'MITO': 'Notas sobre mitología y religión griegas.',
     'INTP': 'Notas sobre problemas de interpretación del texto o la narración.',
+    'NOTE': 'Notas al texto traducido.',
+    'COMM': 'Comentario al texto griego.'
 }
 
 
@@ -95,7 +71,7 @@ class Note:
                 target = 'target="_blank"'
             else:
                 target = ''
-            body = body.replace(label, '<a ' + target + ' href="cantoi' + canto + '.html#' + reference + '">' + label + '</a>')
+            body = body.replace(label, '<a ' + target + ' href="canto' + canto + '.html#' + reference + '">' + label + '</a>')
         return body
 
 
@@ -179,9 +155,9 @@ def get_reference_anchor(note):
 def generate_document(translation, greek, notes, canto, color):
     file_loader = jinja2.FileSystemLoader('.')
     env = jinja2.Environment(loader=file_loader)
-    template = env.get_template('templatei.html')
+    template = env.get_template('template.html')
     text = zip(translation.verses, greek.verses)
-    name = 'cantoi' + canto + '.html'
+    name = 'canto' + canto + '.html'
     with open(name, 'w+', encoding='utf-8') as f:
         f.write(template.render(notes=notes,
                                 text=text,
@@ -209,8 +185,28 @@ def extract_tags(text):
     return tags, passage
 
 
+def get_notes_greek(canto):
+    notes_source = parse_txt('sources/' + canto + '/comentario.md')
+    matches = re.findall('v. ([0-9]+), (.*?): (.*)', notes_source)
+    notes = []
+    count = 1
+    for match in matches:
+        number = int(match[0])
+        passage = match[1].replace('*', '')
+        reg = re.compile(r'<.*?>')
+        passage = reg.sub('', passage)
+        body = match[2]
+        tags, body = extract_tags(body)
+        tags.append('COMM')
+        body = markdown(body)
+        note = Note(canto, number, passage, body, count, 'greek', tags)
+        notes.append(note)
+        count += 1
+    return notes
+
+
 def get_notes_text(canto):
-    filename = 'sources/' + canto + '/notasi.md'
+    filename = 'sources/' + canto + '/notas.md'
     notes_source = parse_txt(filename).split('\n')
     notes = []
     count = 1
@@ -251,8 +247,16 @@ def get_tag_description(name):
     return TAGS[name]
 
 
-def generate_document_for_canto(canto):
-    color = COLORS[canto]
+if __name__ == '__main__':
+    if len(sys.argv) == 1:
+        print("Falta indicar número de canto")
+        exit(1)
+
+    canto = sys.argv[1]
+    if len(sys.argv) == 3:
+        color = sys.argv[2]
+    else:
+        color = 'f2eee8'
 
     print("Procesando canto " + canto)
 
@@ -262,19 +266,13 @@ def generate_document_for_canto(canto):
     greek_text = parse_txt('sources/' + canto + '/griego.md')
     greek = Text(greek_text)
 
+    notes_greek = get_notes_greek(canto)
     notes_text = get_notes_text(canto)
 
+    greek.add_passages_for_notes(notes_greek)
     translation.add_passages_for_notes(notes_text)
 
-    notes = notes_text
+    notes = notes_greek + notes_text
     notes.sort(key=lambda n: n.verse)
 
     generate_document(translation, greek, notes, canto, color)
-
-
-if __name__ == '__main__':
-    for canto in range(1, 25):
-        try:
-            generate_document_for_canto(str(canto))
-        except Exception as e:
-            print(e)

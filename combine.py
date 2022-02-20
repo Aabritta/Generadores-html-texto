@@ -11,30 +11,30 @@ from markdown import markdown
 
 
 COLORS = {
-    '1': 'f2eee8',
-    '2': 'f2eee8',
-    '3': 'f2eee8',
-    '4': 'f2eee8',
-    '5': 'f2eee8',
-    '6': 'f2eee8',
-    '7': 'f2eee8',
-    '8': 'f2eee8',
-    '9': 'f2eee8',
-    '10': 'f2eee8',
-    '11': 'f2eee8',
-    '12': 'f2eee8',
-    '13': 'f2eee8',
-    '14': 'f2eee8',
-    '15': 'f2eee8',
-    '16': 'f2eee8',
-    '17': 'f2eee8',
-    '18': 'f2eee8',
-    '19': 'f2eee8',
-    '20': 'f2eee8',
-    '21': 'f2eee8',
-    '22': 'f2eee8',
-    '23': 'f2eee8',
-    '24': 'f2eee8'
+    '1': 'ffe6e6',
+    '2': 'ffeee6',
+    '3': 'fff8e6',
+    '4': 'fffee6',
+    '5': 'f9ffe6',
+    '6': 'f0ffe6',
+    '7': 'e8ffe6',
+    '8': 'e6ffec',
+    '9': 'e6ffef',
+    '10': 'e6fff8',
+    '11': 'e6fffc',
+    '12': 'e6faff',
+    '13': 'e6f6ff',
+    '14': 'e6f1ff',
+    '15': 'e6e9ff',
+    '16': 'efe6ff',
+    '17': 'f0e6ff',
+    '18': 'f4e6ff',
+    '19': 'f9e6ff',
+    '20': 'fee6ff',
+    '21': 'ffe6fd',
+    '22': 'ffe6f4',
+    '23': 'ffe6f0',
+    '24': 'ffe6ec'
 }
 
 TAGS = {
@@ -298,7 +298,7 @@ def generate_document_for_canto(canto):
 
 
 if __name__ == '__main__':
-    for canto in range(1, 24):
+    for canto in range(1, 25):
         try:
             generate_document_for_canto(str(canto))
         except Exception as e:

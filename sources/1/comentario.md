@@ -1,5 +1,4 @@
 # Ilíada 1 - Comentario
-§
 
 | Autenrieth           | Autenrieth, G. (1895) “A Homeric Dictionary”, trad. al inglés R. P. Keep, New York: Harper & Brothers.                                                                                                                                                                       |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -164,7 +163,9 @@ v. 126, **παλίλλογα**: este hápax parece implicar literalmente “junt
 
 v. 127, **σὺ μὲν**: el μέν no es enfático, sino correlativo con el αὐτάρ al final del verso, de donde nuestra traducción. \[[TECN]\] [[TRAD]] [[GRAM]]
 
-v. 132, **κλέπτε νόῳ**: para mantener el juego que el griego realiza con μὴ δ’ οὕτως en el verso anterior, que casi parecer ser una expresión completa, comenzamos el discurso con “así no”, lo que aleja mucho el verbo principal de la oración de la negación. Hemos resuelto el problema duplicándola, lo que modifica un poco la extraña estructura del discurso de Agamenón, pero preserva bastante de su errático estilo. \[[TECN]\] [[TRAD]] [[FORM]]
+v. 131, **μηδ' οὕτως**: dado que δέ aparece en diferentes casos a comienzo de discurso, en particular, como en este, en respuestas, la conjetura μὴ δὴ de Bekker que adoptan West y CSIC (este último sin registrarla como conjetura) es innecesaria. Por otra parte, aquí y en el resto del poema, imprimimos la secuencia μή + δέ como una única conjunción compleja μηδέ; la diferencia entre μὴ δέ y μή δέ es, de todos modos, exclusivamente ortográfica. \[[TECN]\] [[TEXT]] [[GRAM]]
+
+v. 132, **κλέπτε νόῳ**: para mantener el juego que el griego realiza con μηδ’ οὕτως en el verso anterior, que casi parecer ser una expresión completa, comenzamos el discurso con “así no”, lo que aleja mucho el verbo principal de la oración de la negación. Hemos resuelto el problema duplicándola, lo que modifica un poco la extraña estructura del discurso de Agamenón, pero preserva bastante de su errático estilo. \[[TECN]\] [[TRAD]] [[FORM]]
 
 v. 133, **ἦ ἐθέλεις**: la reconocida dificultad sintáctica de estos dos versos se conserva en español; el estilo trabado de Agamenón (que se repetirá varias veces en este canto) parece más producto de su enojo que de una extraña maestría con las palabras. Justificarlo a partir del estilo paratáctico homérico, aunque verosímil, resulta insatisfactorio, dado que este tipo de interrupciones son infrecuentísimas y no están localizadas en lugares arbitrarios. Para la traducción hemos interpretado el ὄφρα como temporal (puede ser también final, lo que daría “para vos tener botín”) y el αὐτάρ como apodótico (pero lo mantenemos en el “en cambio”). La primera decisión está motivada por el contraste implícito que sugiere la segunda: Agamenón no estaría diciendo que Aquiles quiere privarlo de botín para preservar el suyo, sino que quiere dejarlo sin botín, aunque él todavía preserva el suyo. En sentido estricto, ambos valores coexisten en el griego en una ambigüedad productiva, pero esto es, por supuesto, imposible de conservar en la traducción. \[[TECN]\] [[TRAD]] \[[FORM]\] [[GRAM]]
 
@@ -396,6 +397,10 @@ v. 464, **κατὰ μῆρε κάη**: la lección preferida por Aristarco, que
 
 v. 473, **καλὸν**: algunos comentaristas actuales siguen al escoliasta A en tomarlo como adverbial (ἀντὶ τοῦ καλῶς), lo que es, por supuesto, aceptable, pero también completamente innecesario. \[[TECN]\] [[GRAM]]
 
+v. 475, **Ἠέλιος**: es relativamente unánime entre los editores el criterio de uso de mayúsculas para los fenómenos celestes: en versos como 477, donde la alusión a la diosa que personifica la Aurora es clara por el epíteto, se utilizan, mientras que en versos como 493, donde se trata del fenómeno natural, no. Sin embargo, versos como el presente demuestran la arbitrariedad de la distinción (es imposible afirmar que se pone el astro pero no el dios que lo encarna), a lo que contribuyen el hecho de que ni una sola vez Ἠώς se utilice en plural en los poemas, a pesar de que más de una vez la “Aurora” sirve como modo de medir el paso del tiempo (cf. 1.493, 6.175, 13.794, etc.). Por lo tanto, como en español, imprimimos siempre las palabras que aluden a estos fenómenos (en particular, Ἠώς y Ἠέλιος) con mayúscula. \[[TECN]\] [[CONC]] [[TEXT]]
+
+v. 477, **Ἠώς**: VER Com. 1.475. \[[TECN]\] [[CONC]] [[TEXT]]
+
 v. 482, **πορφύρεον**: hemos optado por la interpretación de Leaf del adjetivo (VER *ad* 1.482), contra la posibilidad de entenderlo en el sentido alternativo de “hinchado”, “revuelto”. Ambas opciones son perfectamente aceptables, sin embargo, y nuestra decisión se basa solo en el valor poético y visual de la traducción elegida. \[[TECN]\] [[TRAD]] [[GRAM]]
 
 v. 490, **οὔτε ποτ'**: lit. “ni alguna vez”, pero preferimos el “ya nunca” que retiene el sentido y es mucho más efectivo para transmitir el efecto de la repetición en español. Sobre el acento de la secuencia en este verso y el que sigue, VER Com. 1.108. \[[TECN]\] [[TEXT]] \[[TRAD]\] [[GRAM]]
@@ -403,6 +408,8 @@ v. 490, **οὔτε ποτ'**: lit. “ni alguna vez”, pero preferimos el “y
 v. 491, **φθινύθεσκε φίλον κῆρ**: para este uso transitivo de φθινύθω, cf. *Od.* 10.485 y 14.95. No hay necesidad, *pace* Willcock, de entender φίλον κῆρ como acusativo de relación. \[[TECN]\] [[GRAM]]
 
 v. 493, **ἀλλ' ὅτε δή**: sobre ὅτε δή, VER *ad* 1.432. En este caso, la combinación con καὶ τότε δὴ añade peso a la secuencia (cf. G.P. §II.3.58), que transferimos en el “en ese momento” del verso 494; el efecto completo es, de todos modos, irreproducible (en particular porque la aliteración se pierde independientemente de la forma en que uno traduzca). En una versión anterior de nuestra traducción utilizamos “Pero en el momento en que … justo *entonces*”; sin embargo, en vista de otras instancias de la combinación (en particular, 22.208-209), hemos decidido modificar esta versión, que enfatiza la inmediatez y puntualidad del acto de una forma que el griego no sugiere. \[[TECN]\] [[TRAD]] [[GRAM]]
+
+v. 493, **Ἠώς**: VER Com. 1.475. \[[TECN]\] [[CONC]] [[TEXT]]
 
 v. 497, **ἠερίη**: la palabra puede querer decir “temprano por la mañana” o funcionar como sinónimo de ἠυτ’ ὀμίχλη (cf. 359), como observa Leaf. Chant., *Dict*. *s.v.*, distingue una palabra derivada de ἀήρ de otra derivada del adverbio ἦρι (como en ἠριγένεια). CSIC (cf. *ad* *loc.*) se inclinan por “como niebla”. Nuestra traducción busca conservar en la medida de lo posible la ambigüedad del término, manteniendo en la referencia temporal la mención de la niebla. \[[TECN]\] [[GRAM]]
 
@@ -472,9 +479,15 @@ v. 581, **φέρτατός**: West imprime la variante peor atestiguada φέρ�
 
 v. 589, **ἀργαλέος γὰρ Ὀλύμπιος ἀντιφέρεσθαι**: lit., como traduce CSIC, “pues es doloroso/difícil el Olímpico para enfrentársele”, pero preferimos, como otros traductores (Crespo Güemes, Pérez), alterar este giro idiomático propio del infinitivo final griego y utilizar una frase que, sin modificar la semántica de la expresión, es más adecuada a la sintaxis del español. \[[TECN]\] [[TRAD]] [[GRAM]]
 
+v. 592, **Ἠελίῳ**: VER Com. 1.475. \[[TECN]\] [[CONC]] [[TEXT]]
+
 v. 597, **ἐνδέξια**: no hay acuerdo respecto al sentido de esta compleja palabra, que se refiere a la dirección propicia para un movimiento, pero no es claro si esa dirección es de izquierda a derecha, como afirma el escoliasta T, o de derecha a izquierda, como afirma el escoliasta D. Cf. sobre el problema Leaf (*ad* 12.239). Porque es necesario traducir algo, hemos optado por la postura más frecuente entre traductores y críticos. \[[TECN]\] [[TRAD]] [[GRAM]]
 
+v. 601, **Ἠέλιον**: VER Com. 1.475. \[[TECN]\] [[CONC]] [[TEXT]]
+
 v. 603, **οὐ μὲν**: Kirk (*ad* 603.4), seguido por CSIC (cf. *ad* 603-4), se inclina por pensar que estos versos son un añadido tardío, sobre la base de la ausencia de coordinante y de la aparición del Apolo músico, ausente del resto de *Ilíada*. Respecto a lo primero, la gravedad es mínima: no es inusual que secuencias de μὲν… δὲ… aparezcan yuxtapuestas con lo precedente (cf. por ejemplo 267 y 288) y aquí οὐ ocupa un lugar habitual para el relativo (cf. por ejemplo 312 y 440), un cambio perfectamente natural en la oralidad, que explica la rareza. Respecto a lo segundo, la explicación sencilla es que no hay demasiadas oportunidades para el canto y la danza en el poema, sobre todo para Apolo, que es de forma sistemática una figura pro-troyana. No tenemos razones para pensar que el poeta de *Ilíada* desconocería su rol como dios de la música (que, por lo demás, está implicado en cierta medida en 472-474). \[[TECN]\] [[TEXT]]
+
+v. 605, **Ἠελίοιο**: VER Com. 1.475. \[[TECN]\] [[CONC]] [[TEXT]]
 
 v. 610, **πάρος κοιμᾶθ'**: VER Com. 1.553. Conservamos la idea de continuidad con el adverbio “usualmente”. \[[TECN]\] [[TRAD]] [[GRAM]]
 
