@@ -1,0 +1,476 @@
+<html>
+  <head>
+    <link href="http://allfont.es/allfont.css?fonts=alegreya" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <style>
+      body {
+	  color: #42210a;
+	  font-family: 'Alegreya', arial;
+	  background-color: #ffe6e6;
+      }
+
+      .header {
+	  background-image:
+	      url('http://iliada.com.ar/wp-content/uploads/2019/03/cropped-Imagen-1.jpg');
+	  height: 10%;
+	  clear: both;
+      }
+	  
+      .show_headers_button {
+	      display: none;
+      }
+
+      .hide_headers_button {
+      }
+	  
+      .sidenav {
+	  margin-top: 80px;
+	  height: 70%;
+	  width: 30%;
+	  overflow-x: auto;
+	  word-break: break-word;
+      }
+
+      .main {
+	  margin-top: 80px;
+	  float: left;
+	  overflow-y: scroll;
+	  width: 70%;
+	  height: 70%;
+	  overflow-x: auto;
+	  word-break: break-word;
+      }
+
+      .options {
+	  clear: both;
+	  font-weight: bold;
+	  height: 12%;
+      }
+
+      .notes {
+	  clear: both;
+	  font-size: large;
+	  line-height: 25px;
+      }
+
+      .note {
+	  padding-bottom: 20px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  text-align: justify;
+	  border-bottom: 1px dashed #42210a;
+	  line-height: 150%;
+	  font-family: 'Alegreya', arial;
+	  color: #726e64;
+      }
+
+      .note_passage {
+	  font-weight: bold;
+	  font-size: large;
+      }
+
+      .note_tags {
+	  font-weight: bold;
+	  font-size: smaller;
+	  color: #bc4218;
+      }
+
+      .verse_translated {
+	  font-size: large;
+	  padding-bottom: 20px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+      }
+
+      @font-face {
+          font-family: 'alkaios';
+          src: url('assets/alkaios.ttf');
+      }
+
+      .verse_original {
+	  font-family: 'alkaios', arial;
+	  font-size: large;
+	  padding-bottom: 20px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+      }
+
+      .verse_number {
+	  color: #bc4218;
+	  font-weight: bold;
+	  font-size: smaller;
+	  text-align: center;
+      }
+
+      .note_number {
+	  vertical-align: sup;
+	  color: #bc4218;
+	  font-size: smaller;
+	  padding: 1px;
+      }
+
+      .passage_selected {
+	  color: #bc4218;
+	  text-decoration: underline;
+	  font-size: larger;
+      }
+
+      .passage {
+	  text-decoration: underline dashed grey;
+      }
+
+      a:link {
+	  color: black;
+	  text-decoration: none;
+      }
+
+      a:visited {
+	  color: black;
+	  text-decoration: none;
+      }
+
+      a:hover {
+	  color: #bc4218;
+	  text-decoration: underline;
+      }
+
+      a:active {
+	  color: #bc4218;
+	  text-decoration: underline;
+      }
+
+      .verse_original a:link {
+	  color: red;
+	  text-decoration: none;
+      }
+
+      .verse_original a:visited {
+	  color: red;
+	  text-decoration: none;
+      }
+
+      a:hover {
+	  color: #bc4218;
+	  text-decoration: underline;
+      }
+
+      a:active {
+	  color: #bc4218;
+	  text-decoration: underline;
+      }
+
+      :target .note_passage {
+	  font-family: 'alkaios', arial;
+	  font-size: large;
+	  text-decoration: underline;
+	  text-decoration-color: #bc4218;
+      }
+
+      :target {
+	  font-size: large;
+	  background-color: #ded7c8;
+	  color: #42210a;
+      }
+
+      h1.title {
+	  color: #f2eee8;
+	  padding: 20px;
+	  font-size: larger;
+	  font-family: Serif;
+      }
+
+      .tooltip {
+	  position: relative;
+	  display: inline-block;
+	  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+      }
+
+      /* Tooltip text */
+      .tooltip .tooltiptext {
+	  visibility: hidden;
+	  background-color: black;
+	  color: #fff;
+	  text-align: center;
+	  margin: 15px;
+	  padding: 5px 0;
+	  border-radius: 6px;
+	  
+	  /* Position the tooltip text - see examples below! */
+	  position: absolute;
+	  z-index: 1;
+      }
+
+      /* Show the tooltip text when you mouse over the tooltip container */
+      .tooltip:hover .tooltiptext {
+	  visibility: visible;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+      function hide_headers() {
+		$('#navbar').hide();
+		$('#main').css('margin-top', '0px');
+		$('#main').height('97%');
+		$('#sidenav').css('margin-top', '0px');
+		$('#sidenav').height('97%');
+		$('.show_headers_button').show();
+      }
+      function show_headers() {
+		$('#navbar').show();
+		$('#main').css('margin-top', '80px');
+		$('#main').height('80%');
+		$('#sidenav').css('margin-top', '80px');
+		$('#sidenav').height('80%');
+		$('.show_headers_button').hide();
+      }
+	  function show_hide_notes() {
+          trad = $('#show_translation').is(':checked');
+          orig = $('#show_greek').is(':checked');
+          notes = $('#show_notes').is(':checked');
+          if (trad && orig && !notes) {
+              $('.main').width('100%');
+              $('.main').css('display', '');
+              $('.sidenav').css('display', 'none');
+              show_notes_for_tag('COMM', false)
+              show_notes_for_tag('NOTE', false)
+          } else if (trad && orig && notes) {
+              $('.main').width('70%');
+              $('.main').css('display', '');
+              $('.sidenav').width('30%');
+              $('.sidenav').css('display', '');
+              $('.verse_translated').css('display', '');
+              $('.verse_original').css('display', '');
+              show_notes_for_tag('COMM', true)
+              show_notes_for_tag('NOTE', true)
+          } else if (trad && !orig && notes) {
+              $('.main').width('50%');
+              $('.main').css('display', '');
+              $('.sidenav').width('50%');
+              $('.sidenav').css('display', '');
+              $('.verse_translated').css('display', '');
+              $('.verse_original').css('display', 'none');
+              show_notes_for_tag('COMM', false)
+              show_notes_for_tag('NOTE', true)
+          } else if (!trad && orig && notes) {
+              $('.main').width('50%');
+              $('.main').css('display', '');
+              $('.sidenav').width('50%');
+              $('.sidenav').css('display', '');
+              $('.verse_translated').css('display', 'none');
+              $('.verse_original').css('display', '');
+              show_notes_for_tag('COMM', true)
+              show_notes_for_tag('NOTE', false)
+          } else if (trad && !orig && !notes) {
+              $('.main').width('100%');
+              $('.main').css('display', '');
+              $('.sidenav').css('display', 'none');
+              $('.verse_translated').css('display', '');
+              $('.verse_original').css('display', 'none');
+              show_notes_for_tag('COMM', false)
+              show_notes_for_tag('NOTE', false)
+          } else if (!trad && orig && !notes) {
+              $('.main').width('100%');
+              $('.main').css('display', '');
+              $('.sidenav').css('display', 'none');
+              $('.verse_translated').css('display', 'none');
+              $('.verse_original').css('display', '');
+              show_notes_for_tag('COMM', false)
+              show_notes_for_tag('NOTE', false)
+          } else if (!trad && !orig && notes) {
+              $('.main').css('display', 'none');
+              $('.sidenav').width('100%');
+              $('.sidenav').css('display', '');
+              show_notes_for_tag('COMM', true)
+              show_notes_for_tag('NOTE', true)
+          } else if (!trad && !orig && !notes) {
+              $('.main').css('display', 'none');
+              $('.sidenav').css('display', 'none');
+              $('.sidenav').css('display', 'none');
+              show_notes_for_tag('COMM', false)
+              show_notes_for_tag('NOTE', false)
+          }
+      }
+      function show_notes_for_tag(tag, value) {
+	  $('tr[tags~=' + tag + ']').toggle(value);
+      }
+      function show_note(note_identificator) {
+	  $('.passage').each(function () {
+	      $(this).removeClass('passage_selected');
+	  });
+	  $('#passage_' + note_identificator).addClass('passage_selected');
+      }
+      function choose(items) {
+        return items[Math.floor(Math.random()*items.length)];
+      }
+      $(document).ready(function () {
+        $('#variant-ἔθηκε').text(choose(['ἔθηκε', 'ἔδωκε,']));$('#variant-ψυχὰς').text(choose(['ψυχὰς', 'κεφαλὰς']));$('#variant-δὲ').text(choose(['δὲ', 'τε']));$('#variant-δαῖτι').text(choose(['δαῖτι', 'πᾶσι,']));
+      });
+    </script>
+  </head>
+  <body>
+    <div id="navbar">
+      <div class="hide_headers_button">
+	<a href="#" onclick="hide_headers()">
+	  Ocultar encabezados
+	</a>
+      </div>
+	<div class="header">
+      <h1 class="title">iliada.com.ar</h1>
+    </div>
+   	Ver/ocultar
+	<input type="checkbox" id="show_translation" checked onclick="show_hide_notes()" /> traducción
+	<input type="checkbox" id="show_greek" checked onclick="show_hide_notes()" /> griego
+	<input type="checkbox" id="show_notes" checked onclick="show_hide_notes()" /> notas
+      </div>
+      <br />
+      <div>
+	<div class="tooltip">Tipos de notas
+	  <span class="tooltiptext">Seleccionar el tipo de notas que se desea ver en el cuadro de la derecha.</span>
+      	</div>
+        <div class="tooltip">
+          <span class="tooltiptext">Notas introductorias</span>
+          <input type="checkbox" checked="checked"
+                 onclick="show_notes_for_tag('INTR',
+                          this.checked)">INTR</input>
+        </div>
+        <div class="tooltip">
+          <span class="tooltiptext">Notas con información avanzada sobre el texto y aproximaciones básicas de análisis, dirigidas a lectores familiarizados con la cultura griega antigua interesados en su análisis literario.</span>
+          <input type="checkbox" checked="checked"
+                 onclick="show_notes_for_tag('AVAN',
+                          this.checked)">AVAN</input>
+        </div>
+        <div class="tooltip">
+          <span class="tooltiptext">Notas sobre problemas específicos del texto en las diferentes categorías, dirigidas a especialistas que quieren aproximarse al poema desde una perspectiva filológica.</span>
+          <input type="checkbox" checked="checked"
+                 onclick="show_notes_for_tag('TECN',
+                          this.checked)">TECN</input>
+        </div>
+        <br />
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Notas sobre conceptos y términos fundamentales en los poemas homéricos.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('CONC', this.checked)">CONC</input>
+        </div>
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Comentarios de crítica textual.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('TEXT', this.checked)">TEXT</input>
+        </div>
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Comentarios de traducción.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('TRAD', this.checked)">TRAD</input>
+        </div>
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Notas sobre el contenido narrativo.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('NARR', this.checked)">NARR</input>
+        </div>
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Notas sobre estilo oral y lenguaje formulaico.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('FORM', this.checked)">FORM</input>
+        </div>
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Notas sobre gramática homérica y discusión de problemas gramaticales específicos.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('GRAM', this.checked)">GRAM</input>
+        </div>
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Notas sobre historia y arqueología.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('HIST', this.checked)">HIST</input>
+        </div>
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Notas sobre estructura de discursos, episodios y el poema.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('ESTR', this.checked)">ESTR</input>
+        </div>
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Notas sobre mitología y religión griegas.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('MITO', this.checked)">MITO</input>
+        </div>
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Notas sobre problemas de interpretación del texto o la narración.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('INTP', this.checked)">INTP</input>
+        </div>
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Notas al texto traducido.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('NOTE', this.checked)">NOTE</input>
+        </div>
+        
+        <div class="tooltip">
+          <span class="tooltiptext">Comentario al texto griego.</span>
+          <input type="checkbox" checked="checked" onclick="show_notes_for_tag('COMM', this.checked)">COMM</input>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="show_headers_button">
+  <a href="#" onclick="show_headers()">
+    <img height="10px" width="10px"  src="maximize.png"></img>
+	</a>
+</div>
+<div class="main" id="main">
+  <div class="text">
+    <table>
+      
+      <tr class="verse">
+	<td width="30px" class="verse_number">1</td>
+	<td class="verse_original">μῆνιν ἄειδε, θεά, Πηληϊάδεω Ἀχιλῆος,</td>
+	<td class="verse_translated">La cólera canta, diosa, del Pelida Aquiles,</td>
+      </tr>
+      
+      <tr class="verse">
+	<td width="30px" class="verse_number">2</td>
+	<td class="verse_original">οὐλομένην, ἣ μυρί' Ἀχαιοῖς ἄλγε' <span id="variant-ἔθηκε"></span></td>
+	<td class="verse_translated">funesta, que incontables dolores a los aqueos causó/dio,</td>
+      </tr>
+      
+      <tr class="verse">
+	<td width="30px" class="verse_number">3</td>
+	<td class="verse_original">πολλὰς δ' ἰφθίμους <span id="variant-ψυχὰς"></span> Ἄϊδι προΐαψεν</td>
+	<td class="verse_translated">y muchas fuertes vidas/cabezas arrojó al Hades</td>
+      </tr>
+      
+      <tr class="verse">
+	<td width="30px" class="verse_number">4</td>
+	<td class="verse_original">ἡρώων, αὐτοὺς <span id="variant-δὲ"></span> ἑλώρια τεῦχε κύνεσσιν</td>
+	<td class="verse_translated">de héroes, y a ellos despojo los hizo para los perros</td>
+      </tr>
+      
+      <tr class="verse">
+	<td width="30px" class="verse_number">5</td>
+	<td class="verse_original">οἰωνοῖσί τε <span id="variant-δαῖτι"></span> Διὸς δ' ἐτελείετο βουλή, </td>
+	<td class="verse_translated">y para las aves rapaces banquete/todas - se cumplía el designio de Zeus, </td>
+      </tr>
+      
+      <tr class="verse">
+	<td width="30px" class="verse_number">6</td>
+	<td class="verse_original">ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε</td>
+	<td class="verse_translated">desde ese primer momento en que se separaron tras disputar</td>
+      </tr>
+      
+      <tr class="verse">
+	<td width="30px" class="verse_number">7</td>
+	<td class="verse_original">Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.</td>
+	<td class="verse_translated">el Atrida, soberano de varones, y el divino Aquiles.</td>
+      </tr>
+      
+    </table>
+  </div>
+</div>
+<div class="sidenav" id="sidenav">
+  <div class="notes">
+    <table>
+      
+    </table>
+  </div>
+</div>
+</body>
+</html>
